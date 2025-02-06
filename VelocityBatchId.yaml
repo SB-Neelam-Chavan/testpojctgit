@@ -1,0 +1,6 @@
+title: VelocityBatchId
+x-stoplight:
+  id: nlp5286e92f3v
+type: integer
+example: 1
+description: ID of a Velocity batch.

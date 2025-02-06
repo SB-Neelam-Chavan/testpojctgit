@@ -1,0 +1,9 @@
+title: AuthenticationMethodType
+x-stoplight:
+  id: ie3ty9yipcssn
+type: string
+description: Method of the authentication
+enum:
+  - SMS
+  - PINCODE
+example: SMS

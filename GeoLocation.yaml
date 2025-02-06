@@ -1,0 +1,19 @@
+title: GeoLocation
+x-stoplight:
+  id: cnacjy2gobnif
+type: object
+properties:
+  latitude:
+    type: number
+    example: 48.831362
+    x-stoplight:
+      id: eb315jsycci2b
+  longitude:
+    type: number
+    example: 2.2441641
+    x-stoplight:
+      id: 3ut1ugdum3kvw
+  mode:
+    $ref: ./GeoLocationMode.yaml
+    x-stoplight:
+      id: 2qj8culmtibhp

@@ -1,0 +1,9 @@
+title: BalanceType
+x-stoplight:
+  id: xghb3a0itj9up
+type: string
+description: Balance type
+enum:
+  - AvailableBalance
+  - SettlementPositionBalance
+  - MergedBalance

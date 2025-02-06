@@ -1,0 +1,6 @@
+title: ProductId
+x-stoplight:
+  id: 1fet45l1jaxdo
+type: string
+description: Product identifier.
+example: PRO123

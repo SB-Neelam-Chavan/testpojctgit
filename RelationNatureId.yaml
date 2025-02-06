@@ -1,0 +1,6 @@
+title: RelationNatureId
+x-stoplight:
+  id: tg3q1ic1x4xy1
+type: string
+description: Nature of the relation
+example: BOARD_MEMBER

@@ -1,0 +1,21 @@
+title: RelationCollection
+x-stoplight:
+  id: 64y47s5fw9bkm
+description: Sorted and paginated list of relations
+allOf:
+  - $ref: ./PaginatedCollection.yaml
+    x-stoplight:
+      id: mx4uthytk4maf
+  - type: object
+    properties:
+      items:
+        type: array
+        description: Collection of relations
+        items:
+          $ref: ./Relation.yaml
+          x-stoplight:
+            id: kq0rndctva6f3
+        x-stoplight:
+          id: riw27qd2uryz4
+    x-stoplight:
+      id: mgsox88c3ugxw

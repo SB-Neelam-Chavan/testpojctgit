@@ -1,0 +1,6 @@
+title: AccountNumber
+x-stoplight:
+  id: 3ijcg8ssrgcwm
+type: string
+description: Account number
+example: '10000000157'

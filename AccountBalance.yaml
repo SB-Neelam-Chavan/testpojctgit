@@ -1,0 +1,24 @@
+title: AccountBalance
+x-stoplight:
+  id: ksisc8weu3fvq
+type: object
+properties:
+  value:
+    description: Amount without separator and symbol
+    type: integer
+    example: 1337
+    x-stoplight:
+      id: g2yp4o1hskcc4
+  currency:
+    $ref: ./CurrencyNumeric.yaml
+    x-stoplight:
+      id: 90aj7ypbc92v4
+  display:
+    type: string
+    example: '13,37 €'
+    x-stoplight:
+      id: 5cqjl20a5mpul
+  balanceType:
+    $ref: ./BalanceType.yaml
+    x-stoplight:
+      id: j4nz2f938v2yu

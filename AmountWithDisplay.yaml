@@ -1,0 +1,22 @@
+title: 'Amount [display][alphabetic currency]'
+x-stoplight:
+  id: zy29362tic1em
+allOf:
+  - $ref: ./Amount.yaml
+    x-stoplight:
+      id: egs26pu390c7p
+  - type: object
+    required:
+      - display
+    properties:
+      display:
+        type: string
+        example: '13,37 €'
+        x-stoplight:
+          id: arromd5fbcwyo
+    x-stoplight:
+      id: pg9zrrrttjmsa
+description: |
+  Amount with:
+    * alphabetic Currency ISO code
+    * a displayable localized value of it.

@@ -1,0 +1,5 @@
+title: Kyc
+x-stoplight:
+  id: shvwph52upj63
+type: object
+description: Party KYC values ordered by their KYC field IDs.

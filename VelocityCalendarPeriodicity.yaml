@@ -1,0 +1,11 @@
+title: VelocityCalendarPeriodicity
+x-stoplight:
+  id: nyr8psheat964
+type: string
+enum:
+  - DAY
+  - WEEK
+  - MONTH
+  - YEAR
+  - SEMESTER
+  - TRIMESTER

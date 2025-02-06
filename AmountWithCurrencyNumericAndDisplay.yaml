@@ -1,0 +1,19 @@
+title: 'Amount [deprecated] [display][numeric currency]'
+x-stoplight:
+  id: nvrchhkjkvy17
+allOf:
+  - $ref: ./AmountWithCurrencyNumeric.yaml
+    x-stoplight:
+      id: sx2huuuoeaof0
+  - type: object
+    required:
+      - display
+    properties:
+      display:
+        type: string
+        example: '13,37 €'
+        x-stoplight:
+          id: cwi3yri1o1vgg
+    x-stoplight:
+      id: uncuin4pjyiqh
+description: Amount with a displayable formatted value of it.

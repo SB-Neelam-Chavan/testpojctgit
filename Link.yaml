@@ -1,0 +1,20 @@
+title: Link
+x-stoplight:
+  id: p8cf3n00t5ugo
+type: object
+readOnly: true
+required:
+  - rel
+  - href
+properties:
+  rel:
+    type: string
+    description: Link relation
+    x-stoplight:
+      id: gku2vtu4x1h6b
+  href:
+    type: string
+    format: uri
+    description: Location URI
+    x-stoplight:
+      id: l92k54nhy4azs
